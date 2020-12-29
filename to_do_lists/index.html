@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an example description"/>
+        <meta name="keywords" content="web development, web design"/>
+        <meta name="robots" content="NO INDEX, NO FOLLOW"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Task List</title>    
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <div class="form-group">
+                    <h2>To Do Lists</h2>
+                    <form class="task-form">
+                        <input type="text" id="add-task" name="add-task" placeholder="Enter task">
+                        <input class="btn btn-primary" type="submit" value="Add Task"> 
+                    </form>
+                </div>
+                <input type="text" id="filter" name="filter" class="filter" placeholder="Filter tasks">
+                <ul class="collection"></ul>
+                <a href="#" class="btn btn-secondary" id="clear-tasks">Clear Tasks</a>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
+
